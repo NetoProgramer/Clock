@@ -28,7 +28,7 @@ body{
     height: 200px;
     top: -60px;
     left: -60px;
-    background: linear-gradient(#d581c6, #ef04c4);
+    background: linear-gradient(#ff7beb, #f803a2);
     animation-name: move-up;
 }   
 
@@ -44,11 +44,11 @@ body{
     height: 200px;
     top: 200px;
     left: 200px;
-    background: linear-gradient(#e1e902, #6c4304);
+    background: linear-gradient(#e1e902, #533200);
     animation-name: move-down;
 }
 
-@keyframes move-up{
+@keyframes move-down{
     to{ 
         transform: translatey(-25px);
 } 
@@ -61,7 +61,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(116, 116, 116, 0.1);
     border-radius: 50%;
     backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, 0.05);
@@ -78,7 +78,7 @@ body{
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: #f60606;
     border-radius: 50%;
     z-index: 15;
 }
